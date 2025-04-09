@@ -1,0 +1,9 @@
+# Node modules
+node_modules
+
+# Build output directories (modify if you use a different folder name)
+dist
+build
+
+# Environment files
+.env
