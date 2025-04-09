@@ -39,5 +39,11 @@ export default {
     port: 3000,
     open: true
   },
-  mode: 'development'
+  mode: 'development',
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'bundle.js',
+    publicPath: '/',
+  }
+  
 };
