@@ -31,7 +31,7 @@ export default {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: 'public/index.html'
+      template: './index.html'
     })
   ],
   devServer: {
@@ -39,7 +39,7 @@ export default {
     port: 3000,
     open: true
   },
-  mode: 'development',
+  mode: 'production',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
